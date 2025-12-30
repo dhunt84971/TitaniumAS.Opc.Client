@@ -3,8 +3,7 @@ using FILETIME = System.Runtime.InteropServices.ComTypes.FILETIME;
 
 namespace TitaniumAS.Opc.Client.Interop.Da
 {
-    [StructLayout(LayoutKind.Sequential, Pack = 4)]
-    //[StructLayout(LayoutKind.Sequential, Pack = 2, CharSet = CharSet.Unicode)]
+    [StructLayout(LayoutKind.Sequential)]
     public struct OPCSERVERSTATUS
     {
         public FILETIME ftStartTime;

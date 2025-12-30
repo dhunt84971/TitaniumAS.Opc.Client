@@ -3,7 +3,7 @@ using TitaniumAS.Opc.Client.Common;
 
 namespace TitaniumAS.Opc.Client.Interop.Da
 {
-    [StructLayout(LayoutKind.Sequential, Pack = 4)]
+    [StructLayout(LayoutKind.Sequential)]
     internal struct OPCITEMPROPERTY
     {
         public short vtDataType;

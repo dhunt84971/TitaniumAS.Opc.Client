@@ -5,7 +5,7 @@ using TitaniumAS.Opc.Client.Common;
 namespace TitaniumAS.Opc.Client.Interop.Da
 {
     [ComConversionLoss]
-    [StructLayout(LayoutKind.Sequential, Pack = 4)]
+    [StructLayout(LayoutKind.Sequential)]
     internal struct OPCITEMPROPERTIES
     {
         public HRESULT hrErrorID;

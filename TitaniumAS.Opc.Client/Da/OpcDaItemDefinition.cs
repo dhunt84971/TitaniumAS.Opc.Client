@@ -74,6 +74,7 @@ namespace TitaniumAS.Opc.Client.Da
             itemDef.hClient = 0;
             itemDef.szAccessPath = AccessPath;
             itemDef.vtRequestedDataType = (short) TypeConverter.ToVarEnum(RequestedDataType);
+            itemDef.wReserved = 0;
             if (Blob != null)
             {
                 itemDef.dwBlobSize = Blob.Length;

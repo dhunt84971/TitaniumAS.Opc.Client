@@ -2,7 +2,7 @@
 
 namespace TitaniumAS.Opc.Client.Interop.Da
 {
-    [StructLayout(LayoutKind.Sequential, Pack = 4)]
+    [StructLayout(LayoutKind.Sequential)]
     internal struct OPCBROWSEELEMENT
     {
         [MarshalAs(UnmanagedType.LPWStr)] public string szName;

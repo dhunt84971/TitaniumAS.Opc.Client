@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 namespace TitaniumAS.Opc.Client.Interop.Da
 {
     [ComConversionLoss]
-    [StructLayout(LayoutKind.Sequential, Pack = 4)]
+    [StructLayout(LayoutKind.Sequential)]
     internal struct OPCITEMATTRIBUTES
     {
         [MarshalAs(UnmanagedType.LPWStr)] public string szAccessPath;
